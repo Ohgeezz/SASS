@@ -8,25 +8,23 @@ $text-color: white;
 p{
     font-size: 24px;
 }
-nav{
-
-    ul{
+nav {
+    ul {
         background: $bg-color;
         margin: 0;
         padding: 0;
         list-style: none;
     }
-    li{
+    li {
         display: inline-block;
     }
-    a{
+    a {
         color: $text-color;
         display: inline-block;
         padding: 10px 16px;
         text-decoration: none;
-
-    }
-    a:hover{
-        background: $hover-color;
+		&:hover{
+			background: $hover-color;
+		}
     }
 }
